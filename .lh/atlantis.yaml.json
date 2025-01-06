@@ -1,0 +1,18 @@
+{
+    "sourceFile": "atlantis.yaml",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1736172003393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1736172003393,
+            "name": "Commit-0",
+            "content": "version: 3\nprojects:\n  - name: meu-projeto\n    dir: .\n    workflow: default\n    autoplan:\n      when_modified: [\"*.tf\", \"*.tfvars\"]\n      enabled: true\n"
+        }
+    ]
+}

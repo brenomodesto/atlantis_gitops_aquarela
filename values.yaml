@@ -1,0 +1,14 @@
+atlantisDataStorage: "/home/atlantis/.atlantis"
+
+atlantisSecret:
+  ghToken: "SEU_GITHUB_TOKEN" # Substitua pelo token gerado no GitHub.
+
+service:
+  type: LoadBalancer
+  port: 80
+  targetPort: 4141
+
+repoWhitelist: "github.com/seu-usuario/*" # Substitua com seus repositórios.
+
+# Configuração de logs (opcional)
+logLevel: info
