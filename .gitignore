@@ -1,3 +1,4 @@
 .history
-.atlantis.yaml
-.values.yaml
+.lh
+atlantis.yaml
+values.yaml
